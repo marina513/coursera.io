@@ -1,0 +1,137 @@
+@media (min-width: 992px) {
+  .col-lg-3
+   {
+    float: left;
+    border: 1px solid green;
+  }
+  
+  .col-lg-3 {
+    width: 25%;
+  }
+  
+  
+}
+/********** Medium devices only **********/
+@media (max-width: 991px) and (min-width: 768px) {
+.col-md-6 
+  {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  
+}
+
+@media (max-width: 767px) {
+.col-sm-6 
+  {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-sm-6  {
+    width: 50%;
+  }
+  
+}
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#container_kbeer {
+  background-color: #00FFFF;
+  position: relative;
+  top: 60px;
+}
+
+#container {
+  
+  background-color: grey;
+  top: 70px;
+  height: 200px;
+  
+  width: 30%;
+  float:left;
+
+  padding: 10px solid black;
+  margin: 10px;
+  border: 1px solid black;
+  overflow: auto;
+  
+  position: relative;
+}
+
+#p1 {
+ font-family: "Arial Black", 
+  Gadget,
+  sans-serif;
+  width: 90px;
+  height: 20%;
+  padding: 0px solid black;
+  border: 1px solid black;
+  margin : solid black;;
+  background-color:pink;
+  top: 0px;
+  
+  right:0;
+  overflow: auto;
+
+  position: absolute;
+
+
+}
+
+
+
+#p2 {
+ font-family: "Arial Black", 
+  Gadget,
+  sans-serif;
+  width: 75px;
+  height: 20%;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  background-color:#B22222;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  overflow: auto;
+}
+
+#p3 {
+ font-family: "Arial Black", 
+  Gadget,
+  sans-serif;
+  width: 75px;
+  height: 20%;
+  border: 1px solid black;
+  margin-bottom: 15px;
+  background-color:#FFFF33;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  overflow: auto;
+}
+
+#p4 {
+ 
+  width: 99%;
+  height: 77%;
+  border: 1px ;
+  margin-bottom: 15px;
+  background-color:gray;
+  top: 50px;
+  left: 0px;
+  position: absolute;
+  overflow: auto;
+  }
+
+
+
+.row{width: 100% }
